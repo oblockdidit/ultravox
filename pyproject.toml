@@ -42,6 +42,7 @@ annoy = "^1.17.3"
 coverage = "^7.6.10"
 whisper_normalizer = "^0.0.10"
 evaluate = "^0.4.3"
+webrtcvad = "^2.0.10"
 
 [tool.poetry.group.dev.dependencies]
 black = "~24.4.2"
@@ -57,6 +58,7 @@ gradio-webrtc = {version = ">0.0.19", extras = ["vad"]}
 gpustat = "~1.1.1"
 types-requests = "~2.26.0"
 types-pyyaml = "^6.0.12.20240724"
+pyaudio = "^0.2.14"
 
 [build-system]
 requires = ["poetry-core"]

@@ -22,7 +22,7 @@ class DemoConfig:
     #    fixie-ai/ultravox
     #    runs/llama2_asr_gigaspeech/checkpoint-1000/
     #    wandb://fixie/ultravox/model-llama2_asr_gigaspeech:v0
-    model_path: str = "fixie-ai/ultravox-v0_3"
+    model_path: str = "fixie-ai/ultravox-v0_3-llama-3_2-1b"
     device: Optional[str] = None
     data_type: Optional[str] = None
     default_prompt: str = ""
